@@ -18,6 +18,17 @@ Extensions/Add-Ons have been written for the following web browsers:
 * Google Chrome
 * Safari
 
+### Building / Compiling from Source:
+You will have to download/install any necessary tools or SDKs necessary for creating an Extension/Add-On.
+
+* Mozilla Firefox - download the [SDK](https://ftp.mozilla.org/pub/mozilla.org/labs/jetpack/jetpack-sdk-latest.zip): 
+ * setup SDK and from the shell inside the extension folder, execute this:
+   
+            cfx xpi
+
+ * [documentation for cfx](https://addons.mozilla.org/en-US/developers/docs/sdk/1.4/dev-guide/addon-development/cfx-tool.html)
+* Google Chrome - Follow the steps here: http://code.google.com/chrome/extensions/getstarted.html
+
 ## Usage Example:
 Examples of use (w/ jQuery):
 
