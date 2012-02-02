@@ -19,6 +19,8 @@ Extensions/Add-Ons have been written for the following web browsers:
 * Safari
 
 ### Building / Compiling from Source:
+Each Extension/Add-On is compiled for *.foo.com domains/URLs, so this is pretty useless if you don't modify and rebuild/recompile.
+
 You will have to download/install any necessary tools or SDKs necessary for creating an Extension/Add-On.
 
 * Mozilla Firefox - download the [SDK](https://ftp.mozilla.org/pub/mozilla.org/labs/jetpack/jetpack-sdk-latest.zip): 
