@@ -1,0 +1,8 @@
+{
+    "description": "adds a CSS class called 'kiosk' to the <html> tag for pages that match *.foo.com", 
+    "license": "MPL 1.1/GPL 2.0/LGPL 2.1", 
+    "author": "Teddy Caddy (http://www.teddycaddy.com)", 
+    "version": "0.1", 
+    "fullName": "Dot Kiosk", 
+    "name": "dot_kiosk"
+}
