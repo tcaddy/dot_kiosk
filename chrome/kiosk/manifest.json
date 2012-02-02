@@ -1,0 +1,19 @@
+{
+  "name": "Dot Kiosk",
+  "version": "0.1",
+  "description": "This plugin will add a CSS class called 'kiosk' to the <html> tag for pages that match *.foo.com .",
+  "permissions": [
+    "http://*.foo.com",
+    "tabs",
+    "https://*.foo.com"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.foo.com/*"
+      ],
+      "js": ["app.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
