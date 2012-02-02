@@ -7,7 +7,7 @@ This is a set of web browser extensions/add-ons that you can install to a machin
 I wrote this b/c I don't want to track personal data with Analytic trackers if a user is on a public kiosk machine.
 
 ## Details:
-Following the convention used by [Modernizr](http://www.modernizr.com/), it will add a new CSS class to the <html> tag called 'kiosk'.
+Following the convention used by [Modernizr](http://www.modernizr.com/), it will add a new CSS class to the &lt;html&gt; tag called 'kiosk'.
 
 This extension/add-on will be executed at the beginning of page load before anything else from HTTP response is parsed.
 
